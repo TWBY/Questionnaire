@@ -13,7 +13,7 @@
         <h2>{{ i + 1 }}. {{ item.quest }}</h2>
         <template class="number" v-for="(val, v) in item.options">
           <input :id="fromId(i,v)" type="radio" v-bind:value="val.type" v-model="item.selected"/>
-          <label :for="fromId(i,v)">◎ {{ val.q }}</label><br/>
+          <label :for="fromId(i,v)">◎ {{ val.q }}</label><br/><img v-bind:src="val.img"/><br/>
         </template>
       </template>
       <hr/>

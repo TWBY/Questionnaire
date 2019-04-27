@@ -145,15 +145,15 @@
     {
         "quest": "只能選擇一種社交平台使用，你會選",
         "options": [{
-                "q": "facebook",
+                "q": "Facebook",
                 "type": "A"
             },
             {
-                "q": "instergram",
+                "q": "Instagram",
                 "type": "C"
             },
             {
-                "q": "youtube",
+                "q": "Youtube",
                 "type": "B"
             }
         ],
@@ -200,15 +200,18 @@
         "quest": "你最喜歡以下哪一種礦物",
         "options": [{
                 "q": "純色寶石",
-                "type": "A"
+                "type": "A",
+                "img": "one_color.jpg"
             },
             {
                 "q": "彩色鑽石",
-                "type": "B"
+                "type": "B",
+                "img": "muticolor.jpg"
             },
             {
                 "q": "透明水晶",
-                "type": "C"
+                "type": "C",
+                "img": "transparent.jpg"
             }
         ],
         "selected": null,

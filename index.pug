@@ -19,6 +19,13 @@ html(lang="en")
                         input(:id="fromId(i,v)" type='radio', v-bind:value='val.type', v-model='item.selected')
                         label(:for="fromId(i,v)") ◎ {{ val.q }}
                         br
+                        img(v-bind:src="val.img")  
+                        br
+
+
+
+
+            
 
 
             //- button(@click='last', v-if='this.now > 0') 上一頁
